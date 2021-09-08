@@ -1,7 +1,0 @@
-CREATE PROCEDURE [dbo].[GetItems]
-AS
-BEGIN
-	SET NOCOUNT ON;
-
-	SELECT * FROM [dbo].[Items]
-END

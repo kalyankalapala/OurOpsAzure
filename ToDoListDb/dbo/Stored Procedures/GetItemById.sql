@@ -1,9 +1,0 @@
-CREATE PROCEDURE [dbo].[GetItemById]
-	@id INT
-AS
-BEGIN
-	SET NOCOUNT ON;
-
-	SELECT * FROM [dbo].[Items]
-	WHERE ID = @id
-END
